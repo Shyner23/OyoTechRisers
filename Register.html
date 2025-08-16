@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register for a Course | NaosTechrise</title>
+  <link rel="stylesheet" href="Register.css">
+</head>
+<body>
+
+<header>
+    
+  <h1>Registration Form</h1>
+  <p>Fill in the form below to enroll in our programs</p>
+</header>
+
+<main>
+  <form class="register-form" action="https://formspree.io/f/xeozdavz" method="post">
+    <!-- Personal Info -->
+    <h2>Personal Information</h2>
+    <label>Full Name<span>*</span></label>
+    <input type="text" name="fullname" required>
+
+    <label>Email Address<span>*</span></label>
+    <input type="email" name="email" required>
+
+    <label>Phone Number<span>*</span></label>
+    <input type="tel" name="phone" required>
+
+    <label>Date of Birth</label>
+    <input type="date" name="dob">
+
+    <label>Gender</label>
+    <select name="gender">
+      <option value="">Select Gender</option>
+      <option>Male</option>
+      <option>Female</option>
+      <option>Prefer not to say</option>
+    </select>
+
+    <!-- Course Info -->
+    <h2>Course Information</h2>
+    <label>Choose Course<span>*</span></label>
+    <select name="course" required>
+      <option value="">Select a Course</option>
+      <option>Web Development</option>
+      <option>AI & Machine Learning</option>
+      <option>Robotics</option>
+      <option>Graphics Design (UI/UX)</option>
+      <option>Video Editing & Content Creation</option>
+    </select>
+
+    <label>Preferred Learning Mode</label>
+    <select name="mode">
+      <option value="">Select Mode</option>
+      <option>Online</option>
+      <option>Onsite</option>
+      <option>Hybrid</option>
+    </select>
+
+    <!-- Additional Info -->
+    <h2>Other Details</h2>
+    <label>City / State</label>
+    <input type="text" name="location">
+
+    <label>How Did You Hear About Us?</label>
+    <select name="referral">
+      <option value="">Select</option>
+      <option>Social Media</option>
+      <option>Friend / Family</option>
+      <option>Website</option>
+      <option>Other</option>
+    </select>
+
+    <label>Any Special Needs / Notes</label>
+    <textarea name="notes" rows="4"></textarea>
+
+    <!-- Consent -->
+    <label class="consent">
+      <input type="checkbox" required> I agree to the terms and conditions
+    </label>
+
+    <button type="submit">Register Now</button>
+  </form>
+</main>
+
+<footer>
+  <p>&copy; 2025 NaosTechrise. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

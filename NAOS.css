@@ -1,0 +1,156 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f7f9fc;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: brown;
+  padding: 10px 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar li a:hover {
+  color: brown;
+}
+
+/* Hero Section */
+.hero {
+  background-color: orange;
+  color: black;
+  text-align: center;
+  padding: 80px 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* full screen height */
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa, #e4ecf5); /* soft background */
+}
+
+
+.hero-button {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: brown;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+.hero-button:hover {
+  background-color: coral;
+}
+
+#main-par{
+  color: black;
+}
+
+/* Section Styles */
+main section {
+  background-color: #ffffff;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba
+}
+
+h2, .h2 {
+  font-size: calc(1.325rem + 0.9vw)
+}
+
+h2 {
+  background-color: brown; 
+  color: white;            
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin:0 auto ;
+  font-size: 24px;
+  width: fit-content;
+}
+
+p{
+  padding: 50px;
+  color: #002244;
+  font-weight:normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  #main-par {
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  margin-bottom: 2rem;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+
+footer{
+  color:whitesmoke;
+  font-size: medium;
+  padding-bottom: 20%;
+  text-align: center;
+}
+
+
+.hero-content {
+  text-align: center;
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  margin-bottom: 1rem;
+  color: brown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content img {
+  max-width: 100%;
+  height: auto; /* responsive scaling */
+  border-radius: 12px; /* makes it blend smoothly */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin: 1.5rem 0;
+}
+
+
+.hero-button {
+  background-color: brown;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color:coral;
+}
